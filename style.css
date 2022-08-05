@@ -74,7 +74,106 @@ ul li:hover{background:black;}
     top: 250px;
     margin-left: 430px;
 }
+/*contact page*/
 
+.head{
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+ .head span{
+    color: blue;
+   
+}
+
+.contact{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+}
+
+.inform{
+   
+    
+    background-color:#800080;
+    
+    color:white;
+    padding: 100px;
+    width:30%;
+}
+
+address{
+    
+    align-items: center;
+}
+
+.intro{
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.form{
+width:80%;
+padding:40px;
+background-color: #FF00FF;
+
+
+
+
+}
+
+#firstname,#middlename, #surename,#gender, #phone{
+width:100%;
+margin: 3px;
+border-radius: 12px;
+padding: 10px;
+
+
+
+}
+.label{
+    
+    color:black;
+    margin-left: 10px;
+}
+
+.button{
+    float: right;
+    margin-right: 2px;
+    border-radius: 15px;
+    background-color: yellow;
+    border:2px solid white;
+    padding:15px;
+    margin: 15px;
+    color:red;
+   font-weight:bold;
+    cursor: pointer;
+    
+    
+    
+    
+}
+.massege-box{
+    margin-bottom: 45px;
+    border-radius: 25px;
+     background-color: blue;
+    text-align: center;
+    border-bottom:2px;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+
+textarea{
+    border: 2px solid ;
+    border-radius: 25px;
+    padding: 25px;
+    width:100%;
+    height:100px;
+}
 
 
 
